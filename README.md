@@ -1,6 +1,8 @@
 # Bharath Annamaneni
 
-This website serves as my professional portfolio and work experience showcase. It features a decoupled architecture with a high-performance Go backend and a modern React frontend. The live website can be accessed at: [https://bharath-annamanenis-domain.tld](https://bharath-annamanenis-domain.tld)
+This website serves as my professional portfolio and systems development showcase. It features a decoupled architecture with a high-performance Go backend and a modern React frontend. 
+
+The live website can be accessed at: [https://bharath-annamanenis-domain.tld](https://bharath-annamanenis-domain.tld)
 
 ## 🚀 Current Implementation
 
@@ -11,19 +13,15 @@ This website serves as my professional portfolio and work experience showcase. I
 
 ### Design & User Experience
 - **Modern Aesthetic:** Features elegant, pill-shaped floating header and footer elements with glassmorphism effects (backdrop blurs) and rounded borders.
-- **Persistent Theme Engine:** Integrated Light and Dark modes with a custom high-contrast toggle. The light palette is specifically tuned for readability and reduced eye strain.
-- **Responsive Layout:** Optimized vertical flexbox structure with a slim sticky footer and professional typography.
+- **Persistent Theme Engine:** Integrated Light and Dark modes with a custom high-contrast toggle.
+- **Symmetrical 2x4 Grids:** Balanced layouts for both Technical Expertise and Personal Interests, providing a professional and organized visual flow.
 - **Personalized Branding:** Featuring a custom SVG Google Gemini logo and a focused professional narrative.
 
 ### Key Components
-- **API Endpoints:**
-    - `GET /api/health`: System status and health check.
-    - `GET /api/projects`: Serves a curated portfolio of systems-level projects.
-    - `GET /api/blog`: Serves dynamic technical articles and deep-dives.
-    - `POST /api/contact`: Secure channel for direct message submissions.
-- **User Interface:**
-    - **Narrative Navigation:** Logical page order: **About -> Work -> Interests -> Projects -> Blog -> Social**.
-    - **Integrated Social Dashboard:** A compact platform grid combined with a direct, functional contact portal.
+- **Professional Work:** An executive-level summary highlighting 10+ years of expertise in distributed systems, AI infrastructure, and Go/Rust development, with a specific focus on solving IT problems using Generative AI.
+- **Interests Dashboard:** A comprehensive 2x4 grid showcasing a balanced life of technical deep-dives (HPC, Cybersecurity, OSINT) and personal passions (Vedic Astrology, Geopolitics, Photography).
+- **Education & Certifications:** Detailed academic background from Texas A&M and JNTU, alongside a verified list of 11 professional certifications (CKA, CKAD, AWS, HashiCorp).
+- **API Endpoints:** Functional routes for health checks, project data, and dynamic blog articles.
 
 ---
 
@@ -33,6 +31,7 @@ This website serves as my professional portfolio and work experience showcase. I
 - **Module Name:** `ba-web-backend`
 - **Language:** Go (Golang)
 - **Framework:** Standard Library (`net/http`) for a lightweight, zero-dependency core.
+- **API:** RESTful JSON API.
 - **Build System:** Native Go toolchain (compiled binaries).
 
 ### Frontend
