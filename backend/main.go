@@ -83,6 +83,14 @@ var posts = []BlogPost{
 func main() {
 	mux := http.NewServeMux()
 
+	mux.HandleFunc("GET /", func(w http.ResponseWriter, r *http.Request) {
+		if r.URL.Path != "/" {
+			http.NotFound(w, r)
+			return
+		}
+		fmt.Fprintf(w, "ba-web-backend is running. Access the API at /api/health or the frontend at :8081\n")
+	})
+
 	// Health check endpoint
 	mux.HandleFunc("GET /api/health", func(w http.ResponseWriter, r *http.Request) {
 		w.Header().Set("Content-Type", "application/json")
